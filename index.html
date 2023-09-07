@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Elisa</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>ELISA TORO</h1>
+            <h2>FRONT-END DEV / BACK-END DEV</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/elisatoro/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/eliisath/"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Elisa Toro.</span> Apasionada por la tecnología, con experiencia en las herramientas y
+                procedimientos de desarrollo más vanguardistas, en constante aprendizaje. Capaz de autogestión eficaz en
+                proyectos independientes, buenas habilidades de colaboración dentro de un equipo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-04-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3541 385404
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            elisath01@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.linkedin.com/in/elisatoro/
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            5152 Villa Carlos Paz-Cordoba, Argentina.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-user-ninja"></i>
+                            <span>ANIMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node.JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular.JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>63%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>TypeScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>73%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proactividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo Individual</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Formacion Full Stack 2023</h4>
+                        <span class="casa">UTN Facultad Regional Córdoba (Argentina.)</span>
+                        <span class="fecha">Mayo 2023 - Noviembre 2023</span>
+                        <p>Primera Parte: Desarrollo Back-End Node.js <br> (Mayo - Agosto.) (Con Certificado.)
+                            <br>
+                            <br>
+                            Segunda Parte: Desarrollo Front-End React.js <br> (Agosto - Noviembre) (Cursando.)
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicatura en Administracion de Empresas</h4>
+                        <span class="casa">Instituto Universitario de Tecnológica "Henri Pittier" - IUTEHPI. <br>
+                            (Anzoátegui-Venezuela.)</span>
+                        <span class="fecha">Egresada en 2020</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Universidad Nacional Experimental Politécnica de la Fuerza Armada. ¨UNEFA¨
+                            <br> (Anzoátegui – Venezuela.)</span>
+                        <span class="fecha">2014 - 2017</span>
+                        <p>Sin Culminar.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Proyectos Indepedientes</span>
+                        <span class="fecha">Actualmente</span>
+                        <p>Como parte de mi formación en Back-End y Front-End he logrado realizar diversos proyectos
+                            (algunos voy subiendo a mi GitHub.)
+                            Uno de los màs recientes es la creaciòn de una APIRESTful desde cero, manejando Node.Js,
+                            Express.Js, y Bases de Datos NoSQL con MongoDB, donde hice autenticación y autorización con
+                            OAuth, pruebas unitarias y de integración con Jest, debugging y el despliegue usando AWS,
+                            ECR y Docker.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Es el proyecto más grande donde tuve el privilegio de participar, creando desde cero una
+                            aplicacion web para una empresa local dedicada a dar soluciones financieras, trabaje en
+                            conjunto con un Full-Stack Web Developer, mi participación se basa en el área de Front-End
+                            usando HTML5, CSS, JavaScript, librerías como Bootstrap y JQuery. Trabajando con éxito tanto a
+                            nivel independiente como en equipo. La Parte de Back-End fue hecha con Java utilizando el
+                            framework Spring. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>CALCULADORA CON JAVASCRIPT</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>APLICACION PRESUPUESTO CON JS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>LISTA DE TAREA CON JS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>RELOJ CON JS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>API RESTFULL CON NODE.JS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>APLICACION WEB CON JS Y JAVA</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                5152 Villa Carlos Paz-Cordoba, Argentina.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contactame: 3541 - 385404
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: elisath01@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/elisatoro/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/eliisath/"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
