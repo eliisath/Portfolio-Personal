@@ -224,7 +224,7 @@ html {
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     position: relative;
     z-index: 10;
@@ -243,6 +243,11 @@ html {
 
 .sobremi button:hover .overlay {
     width: 100%;
+}
+
+.linkCustom {
+    text-decoration: none;
+    color:#fff;
 }
 
 /* SECCION S K I L L S */
@@ -734,12 +739,14 @@ html {
 
 .contacto .col .info {
     position: absolute;
-    top: 40%;
-    background-color: #252a2e;
-    padding: 20px;
-    max-width: 350px;
+    top: 72%;
+    background: linear-gradient(rgba(100, 100, 100, 0.8),
+    rgba(37, 37, 37, 0.8)); ;
+    padding: 10px;
+    max-width: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .contacto .col .info ul {
