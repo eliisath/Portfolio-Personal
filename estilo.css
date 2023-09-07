@@ -739,12 +739,12 @@ html {
 
 .contacto .col .info {
     position: absolute;
-    top: 72%;
+    top: 16%;
     background: linear-gradient(rgba(100, 100, 100, 0.8),
     rgba(37, 37, 37, 0.8)); ;
     padding: 10px;
     max-width: 250px;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     opacity: 1;
 }
