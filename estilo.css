@@ -737,30 +737,10 @@ html {
     width: 100%;
 }
 
-.contacto .col .info {
-    position: absolute;
-    top: 70%;
-    background: linear-gradient(rgba(150, 148, 150, 0.8),
-    rgba(39, 39, 39, 0.8)) ;
-    padding: 20px;
-    max-width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-}
-
-.contacto .col .info ul {
-    list-style: none;
-}
-
-.contacto .col .info ul li {
-    margin-bottom: 20px;
-}
-
 .contacto .col .info ul li i {
     color: #e43db2;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 footer {
@@ -776,7 +756,7 @@ footer .redes {
     margin-bottom: 20px;
 }
 
-footer .redes a {
+footer .redes a{
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -788,6 +768,10 @@ footer .redes a {
     margin: 40px 5px;
     font-size: 20px;
     transition: 0.3s;
+}
+
+footer .redes a:hover {
+    background-color: #e43db2;
 }
 
 footer .arriba {
