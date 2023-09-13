@@ -24,7 +24,7 @@ function efectoHabilidades() {
         habilidades[0].classList.add("htmlcss");
         habilidades[1].classList.add("javascript");
         habilidades[2].classList.add("nodejs");
-        habilidades[3].classList.add("angularjs");
+        habilidades[3].classList.add("angular");
         habilidades[4].classList.add("typescript");
         habilidades[5].classList.add("comunicacion");
         habilidades[6].classList.add("trabajoenequipo");
