@@ -365,12 +365,12 @@ html {
     }
 }
 
-.skills .skill .angular {
+.skills .skill .angularreact {
     width: 0%;
-    animation: 2s angular forwards;
+    animation: 2s angularreact forwards;
 }
 
-@keyframes angular {
+@keyframes angularreact {
     0% {
         width: 0%;
     }
