@@ -367,7 +367,7 @@ html {
 
 .skills .skill .angularreact {
     width: 0%;
-    animation: 2s angular forwards;
+    animation: 2s angularreact forwards;
 }
 
 @keyframes angularreact {
