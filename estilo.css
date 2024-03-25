@@ -89,7 +89,7 @@ html {
 
 .inicio .contenido-banner img {
     margin-top: 40px;
-    border: 10px solid #e43db2;
+    border: 10px solid rgb(235, 227, 240);
     display: block;
     width: 80%;
     margin: auto;
